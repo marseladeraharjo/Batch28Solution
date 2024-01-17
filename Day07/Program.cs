@@ -15,6 +15,7 @@ namespace Day07
 
             IRepositoryBase<Supplier> iRepoSupp = new SupplierRepository(dapperDbContext);
 
+            // Find All
             /*Console.WriteLine("Show All Supplier");
             var suppliers = iRepoSupp.FindAll();
             foreach (var supplier in suppliers)
@@ -22,6 +23,7 @@ namespace Day07
                 Console.WriteLine($"{supplier.ToString()}");
             }*/
 
+            // Find By Id
             /*Console.WriteLine("Find By Id");
             var supplierById = iRepoSupp.FindById(10);
             Console.WriteLine($"{supplierById.ToString()}");*/
@@ -38,6 +40,19 @@ namespace Day07
             Console.WriteLine("Create");
             newSupp = iRepoSupp.Save(ref newSupp);
             Console.WriteLine(newSupp.ToString());*/
+
+            // Update
+            var updateSupp = new Supplier
+            {
+                SupplierId = 35,
+                CompanyName = "Miniso Plus",
+                ContactName = "Julian Aditya",
+                ContactTitle = "Sales Manager",
+                HomePage = "#FORMAGGI.HTM#"
+            };
+
+            updateSupp = iRepoSupp.Update(updateSupp);
+            Console.WriteLine(updateSupp.ToString());
 
             // Delete
             /*Console.WriteLine("Delete");

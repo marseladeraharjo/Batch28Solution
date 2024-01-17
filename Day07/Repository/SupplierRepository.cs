@@ -102,9 +102,46 @@ namespace Day07.Repository
             _dapperDbContext.Dispose();
         }
 
-        public override Supplier Update(Supplier entity)
+        public override Supplier Update(Supplier supplier)
         {
-            return base.Update(entity);
+            SqlCommandModel model = new SqlCommandModel()
+            {
+                CommandText = "UPDATE Suppliers SET CompanyName=@companyName, ContactName=@contactName, ContactTitle=@contactTitle, HomePage=@homePage WHERE SupplierID=@suppId",
+                CommandType = CommandType.Text,
+                CommandParameters = new SqlCommandParameterModel[] {
+                    new SqlCommandParameterModel() {
+                        ParameterName = "@suppId",
+                        DataType = DbType.Int32,
+                        Value = supplier.SupplierId
+                    },
+                    new SqlCommandParameterModel() {
+                        ParameterName = "@companyName",
+                        DataType = DbType.String,
+                        Value = supplier.CompanyName
+                    }
+                    ,
+                    new SqlCommandParameterModel() {
+                        ParameterName = "@contactName",
+                        DataType = DbType.String,
+                        Value = supplier.ContactName
+                    },
+                    new SqlCommandParameterModel() {
+                        ParameterName = "@contactTitle",
+                        DataType = DbType.String,
+                        Value = supplier.ContactTitle
+                    },
+                    new SqlCommandParameterModel() {
+                        ParameterName = "@homePage",
+                        DataType = DbType.String,
+                        Value = supplier.HomePage
+                    }
+                }
+            };
+
+            _dapperDbContext.ExecuteNonQuery(model);
+            _dapperDbContext.Dispose();
+
+            return supplier;
         }
     }
 }
