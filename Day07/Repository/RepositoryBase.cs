@@ -30,7 +30,7 @@ namespace Day07.Repository
         {
             throw new NotImplementedException();
         }
-        public virtual T Save(T entity)
+        public virtual T Save(ref T entity)
         {
             throw new NotImplementedException();
         }

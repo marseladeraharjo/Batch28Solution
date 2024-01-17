@@ -19,7 +19,7 @@ namespace Day07.Repository
 
         public override IEnumerable<Supplier> FindAll()
         {
-            var sql = "select SupplierId, CompanyName, ContactName, ContactTitle from Suppliers;";
+            var sql = "select SupplierId, CompanyName, ContactName, ContactTitle, HomePage from Suppliers;";
 
             var dataSet = _dapperDbContext.ExecuteReader<Supplier>(sql);
 
@@ -48,6 +48,47 @@ namespace Day07.Repository
                 
             }
 
+            _dapperDbContext.Dispose();
+
+            return supplier;
+        }
+
+        public override Supplier Save(ref Supplier supplier)
+        {
+            SqlCommandModel model = new SqlCommandModel()
+            {
+                CommandText = "insert into Suppliers (CompanyName,ContactName,ContactTitle,HomePage) values (@companyName,@contactName,@contactTitle,@homePage);",
+                CommandType = CommandType.Text,
+                CommandParameters = new SqlCommandParameterModel[] {
+                    new SqlCommandParameterModel() {
+                        ParameterName = "@suppId",
+                        DataType = DbType.Int64,
+                        Value = supplier.SupplierId
+                    },
+                    new SqlCommandParameterModel() {
+                        ParameterName = "@companyName",
+                        DataType = DbType.String,
+                        Value = supplier.CompanyName
+                    },
+                    new SqlCommandParameterModel() {
+                        ParameterName = "@contactName",
+                        DataType = DbType.String,
+                        Value = supplier.ContactName
+                    },
+                    new SqlCommandParameterModel() {
+                        ParameterName = "@contactTitle",
+                        DataType = DbType.String,
+                        Value = supplier.ContactTitle
+                    },
+                    new SqlCommandParameterModel() {
+                        ParameterName = "@homePage",
+                        DataType = DbType.String,
+                        Value = supplier.HomePage
+                    }
+                }
+            };
+
+            _dapperDbContext.ExecuteNonQuery(model);
             _dapperDbContext.Dispose();
 
             return supplier;

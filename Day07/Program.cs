@@ -13,8 +13,8 @@ namespace Day07
             BuildConfiguration();
             var dapperDbContext = new DapperDbContext(Configuration.GetConnectionString("NorthWindDS"));
 
-
             IRepositoryBase<Supplier> iRepoSupp = new SupplierRepository(dapperDbContext);
+
             /*Console.WriteLine("Show All Supplier");
             var suppliers = iRepoSupp.FindAll();
             foreach (var supplier in suppliers)
@@ -25,6 +25,21 @@ namespace Day07
             /*Console.WriteLine("Find By Id");
             var supplierById = iRepoSupp.FindById(10);
             Console.WriteLine($"{supplierById.ToString()}");*/
+
+            // Create
+            /*var newSupp = new Supplier
+            {
+                CompanyName = "Miniso",
+                ContactName = "Julian",
+                ContactTitle = "Sales Manager",
+                HomePage = "#FORMAGGI.HTM#"
+            };
+
+            Console.WriteLine("Create");
+            newSupp = iRepoSupp.Save(ref newSupp);
+            Console.WriteLine(newSupp.ToString());*/
+
+
         }
 
         private static void BuildConfiguration()

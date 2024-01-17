@@ -65,7 +65,7 @@ namespace Day07.DbContext
                 _dbConnection.Query(
                 model.CommandText,
                 parameters,
-                commandType: CommandType.StoredProcedure
+                commandType: CommandType.Text
                 );
             }
             finally

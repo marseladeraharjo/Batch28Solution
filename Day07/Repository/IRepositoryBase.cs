@@ -13,7 +13,7 @@ namespace Day07.Repository
 
         T FindById(long id);
 
-        T Save(T entity);
+        T Save(ref T entity);
 
         T Update(T entity);
 
