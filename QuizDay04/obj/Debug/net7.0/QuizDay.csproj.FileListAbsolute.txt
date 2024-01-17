@@ -1,0 +1,14 @@
+C:\Bootcamp\Batch28\Project\Batch28Solution\QuizDay04\bin\Debug\net7.0\QuizDay.exe
+C:\Bootcamp\Batch28\Project\Batch28Solution\QuizDay04\bin\Debug\net7.0\QuizDay.deps.json
+C:\Bootcamp\Batch28\Project\Batch28Solution\QuizDay04\bin\Debug\net7.0\QuizDay.runtimeconfig.json
+C:\Bootcamp\Batch28\Project\Batch28Solution\QuizDay04\bin\Debug\net7.0\QuizDay.dll
+C:\Bootcamp\Batch28\Project\Batch28Solution\QuizDay04\bin\Debug\net7.0\QuizDay.pdb
+C:\Bootcamp\Batch28\Project\Batch28Solution\QuizDay04\obj\Debug\net7.0\QuizDay.GeneratedMSBuildEditorConfig.editorconfig
+C:\Bootcamp\Batch28\Project\Batch28Solution\QuizDay04\obj\Debug\net7.0\QuizDay.AssemblyInfoInputs.cache
+C:\Bootcamp\Batch28\Project\Batch28Solution\QuizDay04\obj\Debug\net7.0\QuizDay.AssemblyInfo.cs
+C:\Bootcamp\Batch28\Project\Batch28Solution\QuizDay04\obj\Debug\net7.0\QuizDay.csproj.CoreCompileInputs.cache
+C:\Bootcamp\Batch28\Project\Batch28Solution\QuizDay04\obj\Debug\net7.0\QuizDay.dll
+C:\Bootcamp\Batch28\Project\Batch28Solution\QuizDay04\obj\Debug\net7.0\refint\QuizDay.dll
+C:\Bootcamp\Batch28\Project\Batch28Solution\QuizDay04\obj\Debug\net7.0\QuizDay.pdb
+C:\Bootcamp\Batch28\Project\Batch28Solution\QuizDay04\obj\Debug\net7.0\QuizDay.genruntimeconfig.cache
+C:\Bootcamp\Batch28\Project\Batch28Solution\QuizDay04\obj\Debug\net7.0\ref\QuizDay.dll
