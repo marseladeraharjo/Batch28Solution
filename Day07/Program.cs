@@ -39,7 +39,9 @@ namespace Day07
             newSupp = iRepoSupp.Save(ref newSupp);
             Console.WriteLine(newSupp.ToString());*/
 
-
+            // Delete
+            /*Console.WriteLine("Delete");
+            iRepoSupp.Delete(36);*/
         }
 
         private static void BuildConfiguration()

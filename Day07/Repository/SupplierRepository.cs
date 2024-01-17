@@ -93,5 +93,18 @@ namespace Day07.Repository
 
             return supplier;
         }
+
+        public override void Delete(long id)
+        {
+            var sql = $"DELETE FROM Suppliers WHERE SupplierID={id}";
+
+            _dapperDbContext.ExecuteNonQuery(sql);
+            _dapperDbContext.Dispose();
+        }
+
+        public override Supplier Update(Supplier entity)
+        {
+            return base.Update(entity);
+        }
     }
 }

@@ -17,6 +17,6 @@ namespace Day07.Repository
 
         T Update(T entity);
 
-        void Delete(T entity);
+        void Delete(long id);
     }
 }

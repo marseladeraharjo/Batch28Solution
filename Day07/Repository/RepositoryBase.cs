@@ -16,7 +16,7 @@ namespace Day07.Repository
         {
             _dapperDbContext = dapperDbContext;
         }
-        public virtual void Delete(T entity)
+        public virtual void Delete(long id)
         {
             throw new NotImplementedException();
         }
