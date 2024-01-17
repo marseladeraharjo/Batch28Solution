@@ -11,7 +11,7 @@ namespace Day07.Repository
     {
         IEnumerable<T> FindAll();
 
-        IEnumerable<T> FindById(long id);
+        T FindById(long id);
 
         T Save(T entity);
 

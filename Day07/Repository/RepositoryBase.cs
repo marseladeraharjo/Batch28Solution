@@ -26,7 +26,7 @@ namespace Day07.Repository
             throw new NotImplementedException();
         }
 
-        public virtual IEnumerable<T> FindById(long id)
+        public virtual T FindById(long id)
         {
             throw new NotImplementedException();
         }

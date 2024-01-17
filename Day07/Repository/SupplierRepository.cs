@@ -19,13 +19,6 @@ namespace Day07.Repository
 
         public override IEnumerable<Supplier> FindAll()
         {
-            /*SqlCommandModel model = new SqlCommandModel()
-            {
-                CommandText = "select SupplierId, CompanyName, ContactName, ContactTitle from Suppliers;",
-                CommandType = CommandType.Text,
-                CommandParameters = new SqlCommandParameterModel[] { }
-            };*/
-
             var sql = "select SupplierId, CompanyName, ContactName, ContactTitle from Suppliers;";
 
             var dataSet = _dapperDbContext.ExecuteReader<Supplier>(sql);
@@ -39,35 +32,25 @@ namespace Day07.Repository
             _dapperDbContext.Dispose();
         }
 
-        public override IEnumerable<Supplier> FindById(long id)
+        public override Supplier FindById(long id)
         {
-            /*SqlCommandModel model = new SqlCommandModel()
-            {
-                CommandText = "select SupplierId, CompanyName, ContactName, ContactTitle from Suppliers where SupplierID = @suppId",
-                CommandType = CommandType.Text,
-                CommandParameters = new SqlCommandParameterModel[]
-               {
-                    new SqlCommandParameterModel()
-                    {
-                        ParameterName = "@empId",
-                        DataType = DbType.Int64,
-                        Value = id
-                    }
-               }
-            };*/
             var param = id;
 
             var sql = $"select SupplierId, CompanyName, ContactName, ContactTitle from Suppliers where SupplierID = {param};";
 
             var dataSet = _dapperDbContext.ExecuteReader<Supplier>(sql);
 
+            var supplier = new Supplier();
+
             while (dataSet.MoveNext())
             {
-                var item = dataSet.Current;
-                yield return item;
+                supplier = dataSet.Current;
+                
             }
 
             _dapperDbContext.Dispose();
+
+            return supplier;
         }
     }
 }
