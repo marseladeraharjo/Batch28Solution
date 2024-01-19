@@ -12,3 +12,4 @@ C:\Bootcamp\Batch28\Project\Batch28Solution\Day03\obj\Debug\net7.0\refint\Day03.
 C:\Bootcamp\Batch28\Project\Batch28Solution\Day03\obj\Debug\net7.0\Day03.pdb
 C:\Bootcamp\Batch28\Project\Batch28Solution\Day03\obj\Debug\net7.0\Day03.genruntimeconfig.cache
 C:\Bootcamp\Batch28\Project\Batch28Solution\Day03\obj\Debug\net7.0\ref\Day03.dll
+C:\Bootcamp\Batch28\Project\Batch28Solution\Day03\obj\Debug\net7.0\Day03.sourcelink.json

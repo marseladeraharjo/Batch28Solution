@@ -34,3 +34,4 @@ C:\Bootcamp\Batch28\Project\Batch28Solution\Day06\obj\Debug\net7.0\Day06.csproj.
 C:\Bootcamp\Batch28\Project\Batch28Solution\Day06\bin\Debug\net7.0\appsettings.json
 C:\Bootcamp\Batch28\Project\Batch28Solution\Day06\bin\Debug\net7.0\Dapper.dll
 C:\Bootcamp\Batch28\Project\Batch28Solution\Day06\bin\Debug\net7.0\Dapper.SimpleCRUD.dll
+C:\Bootcamp\Batch28\Project\Batch28Solution\Day06\obj\Debug\net7.0\Day06.sourcelink.json

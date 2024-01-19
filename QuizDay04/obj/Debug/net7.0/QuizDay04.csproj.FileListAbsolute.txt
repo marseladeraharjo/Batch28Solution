@@ -12,3 +12,4 @@ C:\Bootcamp\Batch28\Project\Batch28Solution\QuizDay04\obj\Debug\net7.0\refint\Qu
 C:\Bootcamp\Batch28\Project\Batch28Solution\QuizDay04\obj\Debug\net7.0\QuizDay04.pdb
 C:\Bootcamp\Batch28\Project\Batch28Solution\QuizDay04\obj\Debug\net7.0\QuizDay04.genruntimeconfig.cache
 C:\Bootcamp\Batch28\Project\Batch28Solution\QuizDay04\obj\Debug\net7.0\ref\QuizDay04.dll
+C:\Bootcamp\Batch28\Project\Batch28Solution\QuizDay04\obj\Debug\net7.0\QuizDay04.sourcelink.json
