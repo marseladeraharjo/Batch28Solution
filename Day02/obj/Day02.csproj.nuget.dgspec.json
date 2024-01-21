@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Bootcamp\\Batch28\\Project\\Batch28Solution\\Day02\\Day02.csproj": {}
+    "C:\\bootcamp\\Batch28\\Project\\Batch28Solution\\Day02\\Day02.csproj": {}
   },
   "projects": {
-    "C:\\Bootcamp\\Batch28\\Project\\Batch28Solution\\Day02\\Day02.csproj": {
+    "C:\\bootcamp\\Batch28\\Project\\Batch28Solution\\Day02\\Day02.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Bootcamp\\Batch28\\Project\\Batch28Solution\\Day02\\Day02.csproj",
+        "projectUniqueName": "C:\\bootcamp\\Batch28\\Project\\Batch28Solution\\Day02\\Day02.csproj",
         "projectName": "Day02",
-        "projectPath": "C:\\Bootcamp\\Batch28\\Project\\Batch28Solution\\Day02\\Day02.csproj",
-        "packagesPath": "C:\\Users\\CODE.ID\\.nuget\\packages\\",
-        "outputPath": "C:\\Bootcamp\\Batch28\\Project\\Batch28Solution\\Day02\\obj\\",
+        "projectPath": "C:\\bootcamp\\Batch28\\Project\\Batch28Solution\\Day02\\Day02.csproj",
+        "packagesPath": "C:\\Users\\Codex\\.nuget\\packages\\",
+        "outputPath": "C:\\bootcamp\\Batch28\\Project\\Batch28Solution\\Day02\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\CODE.ID\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Codex\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

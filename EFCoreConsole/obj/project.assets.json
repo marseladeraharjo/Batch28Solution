@@ -4313,19 +4313,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\CODE.ID\\.nuget\\packages\\": {}
+    "C:\\Users\\Codex\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Bootcamp\\Batch28\\Project\\Batch28Solution\\EFCoreConsole\\EFCoreConsole.csproj",
+      "projectUniqueName": "C:\\bootcamp\\Batch28\\Project\\Batch28Solution\\EFCoreConsole\\EFCoreConsole.csproj",
       "projectName": "EFCoreConsole",
-      "projectPath": "C:\\Bootcamp\\Batch28\\Project\\Batch28Solution\\EFCoreConsole\\EFCoreConsole.csproj",
-      "packagesPath": "C:\\Users\\CODE.ID\\.nuget\\packages\\",
-      "outputPath": "C:\\Bootcamp\\Batch28\\Project\\Batch28Solution\\EFCoreConsole\\obj\\",
+      "projectPath": "C:\\bootcamp\\Batch28\\Project\\Batch28Solution\\EFCoreConsole\\EFCoreConsole.csproj",
+      "packagesPath": "C:\\Users\\Codex\\.nuget\\packages\\",
+      "outputPath": "C:\\bootcamp\\Batch28\\Project\\Batch28Solution\\EFCoreConsole\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\CODE.ID\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Codex\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4339,8 +4339,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Bootcamp\\Batch28\\Project\\Batch28Solution\\EFCoreLibrary\\EFCoreLibrary.csproj": {
-              "projectPath": "C:\\Bootcamp\\Batch28\\Project\\Batch28Solution\\EFCoreLibrary\\EFCoreLibrary.csproj"
+            "C:\\bootcamp\\Batch28\\Project\\Batch28Solution\\EFCoreLibrary\\EFCoreLibrary.csproj": {
+              "projectPath": "C:\\bootcamp\\Batch28\\Project\\Batch28Solution\\EFCoreLibrary\\EFCoreLibrary.csproj"
             }
           }
         }
@@ -4398,7 +4398,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
